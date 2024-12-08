@@ -7,7 +7,7 @@ import pickle
 import one_hot
 from random import shuffle
 import numpy as np
-from keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import matplotlib.pyplot as plt
 
 outputs_dir = 'outputs'
